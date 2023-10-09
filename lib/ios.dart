@@ -17,6 +17,10 @@ Future<void> overwriteInfoPlist(String name) async {
       requireChange = true;
       continue;
     }
+    if (line.contains('CFBundleDisplayName')) {
+      requireChange = true;
+      continue;
+    }
 
     if (requireChange) {
       lines[x] = '	<string>$name</string>';
