@@ -5,12 +5,12 @@ author: moyashidaisuke <guitaristdaisuke@gmail.com>
 homepage: https://github.com/daisuke-fukuda/flutter_launcher_name
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  yaml: ^2.1.16
+  yaml: 
 
 dev_dependencies:
   flutter_test:
